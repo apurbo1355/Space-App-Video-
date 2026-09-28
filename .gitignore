@@ -1,0 +1,5 @@
+node_modules/
+.cache/
+out/stills/
+*.log
+.DS_Store

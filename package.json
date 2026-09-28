@@ -1,0 +1,35 @@
+{
+  "name": "astraflame-explainer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AstraFlame explainer video (NASA Space Apps 2026, Team Agni Shikha) built with Remotion",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "voiceover": "mkdir -p .cache && tsx scripts/export-narration.ts > .cache/narration.json && python3 scripts/generate_voiceover.py .cache/narration.json && tsx scripts/check-sync.ts",
+    "check-sync": "tsx scripts/check-sync.ts",
+    "stills": "tsx scripts/render-stills.ts",
+    "render": "remotion render src/index.ts AstraFlameVideo out/astraflame_explainer.mp4",
+    "render:scenes": "tsx scripts/render-scenes.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apurbo1355/Space-App-Video-.git"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@remotion/bundler": "4.0.529",
+    "@remotion/cli": "4.0.529",
+    "@remotion/google-fonts": "4.0.529",
+    "@remotion/renderer": "4.0.529",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "remotion": "4.0.529"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "tsx": "^4.23.15",
+    "typescript": "^5.9.3"
+  }
+}

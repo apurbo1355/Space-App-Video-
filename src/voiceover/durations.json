@@ -1,0 +1,74 @@
+{
+  "s1a": {
+    "seconds": 4.798,
+    "hash": "b163714b4745"
+  },
+  "s1b": {
+    "seconds": 6.633,
+    "hash": "0a094e75c4a3"
+  },
+  "s1c": {
+    "seconds": 4.017,
+    "hash": "77b6ae872908"
+  },
+  "s2a": {
+    "seconds": 4.245,
+    "hash": "93de19932153"
+  },
+  "s2b": {
+    "seconds": 6.992,
+    "hash": "a88efa656dce"
+  },
+  "s2c": {
+    "seconds": 6.251,
+    "hash": "85dfd401a70c"
+  },
+  "s3a": {
+    "seconds": 4.235,
+    "hash": "b4d5ed84e867"
+  },
+  "s3b": {
+    "seconds": 4.395,
+    "hash": "8b1c0138aeb0"
+  },
+  "s3c": {
+    "seconds": 6.228,
+    "hash": "6492fde792ed"
+  },
+  "s4a": {
+    "seconds": 7.872,
+    "hash": "af2cb1b2e3e6"
+  },
+  "s4b": {
+    "seconds": 8.464,
+    "hash": "d43b6c3ebe3e"
+  },
+  "s4c": {
+    "seconds": 5.098,
+    "hash": "f03d68993494"
+  },
+  "s5a": {
+    "seconds": 7.648,
+    "hash": "dfd4c5324a9d"
+  },
+  "s5b": {
+    "seconds": 4.101,
+    "hash": "0a948fbab4a4"
+  },
+  "s6a": {
+    "seconds": 4.917,
+    "hash": "502b72c30df1"
+  },
+  "s6b": {
+    "seconds": 4.874,
+    "hash": "09127b242fcc"
+  },
+  "s6c": {
+    "seconds": 2.591,
+    "hash": "6b92f5bd2b6a"
+  },
+  "s6d": {
+    "seconds": 3.748,
+    "hash": "96cc3c052e9e"
+  }
+}
